@@ -33,7 +33,9 @@ python get_xy_city.py
 Ingrese el nombre de la ciudad: Lima
 Coordenadas: x=-12.0464, y=-77.0428
 ```
-🎯 Tareas del proyecto
+---
+
+## 🎯 Tareas del proyecto
 
 1. Crear un Duolingo de Ciudades
 
@@ -51,12 +53,12 @@ Partiendo de `get_xy_city.py`:
 - Obtener las coordenadas GPS (x, y) de cada ciudad usando el webservice.
 - Guardar los datos en un archivo `.csv` con las columnas:
 
-
+```
 nombre_ciudad,x,y
 Lima,-12.0464,-77.0428
 París,48.8566,2.3522
 Tokio,35.6895,139.6917
-
+```
 
 3. Crear un mapa interactivo con Folium
 
@@ -64,6 +66,6 @@ Tokio,35.6895,139.6917
 - Cada ciudad se mostrará como un marcador en el mapa.
 - Guardar el mapa como un archivo **HTML** que puedas abrir en tu navegador.
 
-
+---
 
 
