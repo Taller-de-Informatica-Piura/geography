@@ -33,16 +33,15 @@ python get_xy_city.py
 Ingrese el nombre de la ciudad: Lima
 Coordenadas: x=-12.0464, y=-77.0428
 ```
-
 🎯 Tareas del proyecto
 
 1. Crear un Duolingo de Ciudades
 
-Usando ChatGPT, vamos a adaptar un script que hicimos antes para un juego estilo Duolingo:
+Usando ChatGPT, adapta un script que hicimos antes para un juego estilo Duolingo:
 
 - Mostrar el nombre de la ciudad.
 - Mostrar dos imágenes de ciudades.
-- El usuario tiene que hacer clic en la imagen correcta que corresponda con el nombre de la ciudad.
+- El usuario debe hacer clic en la imagen correcta que corresponda con el nombre de la ciudad.
 
 2. Crear un listado de ciudades con coordenadas
 
@@ -52,6 +51,7 @@ Partiendo de `get_xy_city.py`:
 - Obtener las coordenadas GPS (x, y) de cada ciudad usando el webservice.
 - Guardar los datos en un archivo `.csv` con las columnas:
 
+
 nombre_ciudad,x,y
 Lima,-12.0464,-77.0428
 París,48.8566,2.3522
@@ -60,19 +60,10 @@ Tokio,35.6895,139.6917
 
 3. Crear un mapa interactivo con Folium
 
-Usar Python y la librería Folium para crear un mapa interactivo con todas las ciudades de tu .csv.
+- Usar Python y la librería **Folium** para crear un mapa interactivo con todas las ciudades de tu `.csv`.
+- Cada ciudad se mostrará como un marcador en el mapa.
+- Guardar el mapa como un archivo **HTML** que puedas abrir en tu navegador.
 
-Cada ciudad se mostrará como un marcador en el mapa.
-
-Guardar el mapa como un archivo HTML que puedas abrir en tu navegador.
-
-# 🎯 Tareas del proyecto
-
-Este proyecto se hace usando **Python**, preferentemente ejecutando los scripts desde **Thonny** (ya instalado en los laptops del colegio). También necesitarás la librería **Folium** para crear mapas interactivos. Puedes instalarla con:
-
-```bash
-pip install folium
-```
 
 
 
